@@ -1,0 +1,27 @@
+{
+  "name": "barbot",
+  "version": "1.0.0",
+  "description": "Software for a barbot",
+  "main": "index.ts",
+  "scripts": {
+    "build": "esbuild ./ --bundle --outfile=dist.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flofriday/barbot.git"
+  },
+  "author": "flofriday",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flofriday/barbot/issues"
+  },
+  "homepage": "https://github.com/flofriday/barbot#readme",
+  "dependencies": {
+    "esbuild": "^0.13.3",
+    "three": "^0.133.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.132.2"
+  }
+}
